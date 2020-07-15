@@ -1,0 +1,15 @@
+{
+  "presets": [
+    [
+      "@babel/env",
+      {
+        "targets": {
+          "browsers": "ie >= 9"
+        },
+        "useBuiltIns": "usage",
+        "corejs": "3.6.5",
+        "shippedProposals": true
+      }
+    ]
+  ]
+}
