@@ -1,8 +1,9 @@
 {
   "compilerOptions": {
-    "module": "es6",
+    "module": "esnext",
     "checkJs": true,
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "lib": ["esnext", "webworker", "dom"]
   },
   "exclude": ["dist"]
 }
