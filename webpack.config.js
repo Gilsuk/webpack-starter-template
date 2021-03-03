@@ -2,8 +2,8 @@ const path = require("path");
 
 module.exports = {
   mode: "development",
-  entry: "./src/index.js",
   target: ["web", "es5"],
+  entry: "./src/index.js",
   output: {
     filename: "index.js",
     path: path.join(__dirname, "dist"),
@@ -11,10 +11,10 @@ module.exports = {
       arrowFunction: false,
     },
   },
+  devtool: "eval-cheap-module-source-map",
   resolve: {
     extensions: [".js", ".mjs"],
   },
-  devtool: "eval-cheap-module-source-map",
   devServer: {
     host: "localhost",
     publicPath: "/dist/",
