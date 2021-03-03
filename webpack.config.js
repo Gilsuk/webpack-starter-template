@@ -32,19 +32,19 @@ module.exports = {
                 "@babel/preset-env",
                 {
                   targets: {
-                    ie: "9"
+                    ie: "9",
                   },
                   useBuiltIns: "usage",
                   corejs: {
                     version: "3.9",
                     proposal: false,
                   },
-                  shippedProposals: false
-                }
-              ]
+                  shippedProposals: false,
+                },
+              ],
             ],
             plugins: ["@babel/plugin-transform-runtime"],
-          }
+          },
         },
       },
     ],
