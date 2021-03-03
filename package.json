@@ -5,8 +5,8 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "npx webpack --mode production",
-    "live": "npx webpack-dev-server",
-    "live:ch": "npx webpack-dev-server --open Chrome --config webpack.config.js"
+    "live": "npx webpack serve",
+    "live:ch": "npx webpack serve --open Chrome --config webpack.config.js"
   },
   "author": "Gilsuk",
   "license": "MIT",
@@ -17,8 +17,8 @@
     "@babel/preset-env": "^7.10.4",
     "babel-loader": "^8.1.0",
     "core-js": "^3.6.5",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.12",
+    "webpack": "^5.24.2",
+    "webpack-cli": "^4.5.0",
     "webpack-dev-server": "^3.11.0"
   }
 }
