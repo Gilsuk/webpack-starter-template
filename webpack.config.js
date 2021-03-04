@@ -2,7 +2,7 @@ const path = require("path");
 
 module.exports = {
   mode: "development",
-  target: ["web", "es5"],
+  target: "web",
   entry: "./src/index.js",
   output: {
     filename: "index.js",
@@ -19,8 +19,6 @@ module.exports = {
     host: "localhost",
     publicPath: "/dist/",
     contentBase: [path.join(__dirname), path.join(__dirname, "css")],
-    watchContentBase: true,
-    hot: true,
     open: true,
   },
   module: {
