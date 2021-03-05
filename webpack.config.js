@@ -28,26 +28,6 @@ module.exports = {
         exclude: /node_modules/,
         use: {
           loader: "babel-loader",
-          options: {
-            presets: [
-              [
-                "@babel/preset-env",
-                {
-                  targets: {
-                    ie: "9",
-                  },
-                  modules: "amd",
-                  useBuiltIns: "usage",
-                  corejs: {
-                    version: "3.9",
-                    proposal: false,
-                  },
-                  shippedProposals: false,
-                },
-              ],
-            ],
-            plugins: ["@babel/plugin-transform-runtime"],
-          },
         },
       },
     ],

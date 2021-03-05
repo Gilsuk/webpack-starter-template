@@ -1,0 +1,11 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "modules": "amd"
+      }
+    ]
+  ],
+  "plugins": [["@babel/plugin-transform-runtime", { "corejs": "3" }]]
+}

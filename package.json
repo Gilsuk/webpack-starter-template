@@ -11,12 +11,11 @@
   "author": "Gilsuk",
   "license": "MIT",
   "devDependencies": {
-    "@babel/cli": "^7.13.0",
     "@babel/core": "^7.13.8",
     "@babel/plugin-transform-runtime": "^7.13.9",
     "@babel/preset-env": "^7.13.9",
+    "@babel/runtime-corejs3": "^7.13.9",
     "babel-loader": "^8.2.2",
-    "core-js": "^3.9.1",
     "webpack": "^5.24.3",
     "webpack-cli": "^4.5.0",
     "webpack-dev-server": "^3.11.2"
