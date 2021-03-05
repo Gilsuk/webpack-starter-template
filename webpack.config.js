@@ -36,6 +36,7 @@ module.exports = {
                   targets: {
                     ie: "9",
                   },
+                  modules: "amd",
                   useBuiltIns: "usage",
                   corejs: {
                     version: "3.9",
